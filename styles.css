@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+    --white: hsl(0, 0, 100%);
+}
+
+
+
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Red Hat Display";
+    background-color: var(--pale-blue)
+}
+
+.main-div {
+    border: 1px solid hidden;
+    height: 500px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+
+header img {
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.description {
+    width: 100%;
+    padding: 24px 10px 15px 10px;
+}
+
+.title {
+    padding: 0 0 10px 0;
+    font-weight: 900;
+
+}
+
+.title-desc {
+    color: var(--desaturated-blue);
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    padding: 0 10px 0 10px;
+    width: 100%;
+}
+
+.plan {
+    border: 1px solid hidden;
+    /*padding: 0 10px 0 5px;*/
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: var(--very-pale-blue);
+    border-radius: 10px;
+}
+
+.plan-desc {
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+    line-height: 24px;
+}
+
+.icon-t1 {
+    overflow: hidden;
+    display: inline-block;
+    width: 40%;
+    margin-right: -50px;
+}
+
+.option {
+    text-decoration: underline;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--bright-blue);
+    font-weight: 700;
+}
+
+.option:hover {
+    color: hsl(245, 75%, 52%, 0.8);
+    cursor: pointer;
+}
+
+strong {
+    font-weight: 900;
+}
+
+.payment {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding-top: 24px;
+}
+
+.payment button {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    background-color: var(--bright-blue);
+    color: var(--pale-blue);
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+
+.payment span {
+    font-size: 12px;
+}
+
+.payment button {
+    box-shadow: 0px 10px 30px silver;
+    cursor: pointer;
+}
+
+.price {
+    color: var(--desaturated-blue);
+}
+
+.payment span {
+    color: var(--desaturated-blue);
+    font-weight: 900;
+}
+
+.payment span {
+    cursor: pointer;
+}
+
+.payment button:hover {
+    background-color:  hsl(245, 75%, 52%, 0.8);
+}
+
+.payment span:hover {
+    color: black;
+}
+
+.attribution {
+    font-size: 1rem;
+    padding: 10px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+
+.attribution a[alt="profile-link"]:hover {
+    color: blue;
+    font-size: 1.25rem;
+}
+
